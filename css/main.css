@@ -7,4 +7,47 @@ html, body {
     height: 100%;
     margin: 0;
     padding: 0;
+    background-color: #222;
+}
+
+.wrapper {
+    max-width: 1250px;
+    height: 100%;
+    margin: 0 auto;
+}
+
+/* ---------- NAVBAR ---------- */
+#navbar {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100px;
+}
+
+#navbar .wrapper {
+    display: flex;
+    align-items: center;
+}
+
+#logo {
+    font-size: 20px;
+    text-decoration: none;
+    color: white;
+}
+
+#logo span {
+    color: #EBB82C;
+}
+
+#navbar-links {
+    margin-left: auto;
+}
+
+.navbar-link {
+    text-decoration: none;
+    color: white;
+}
+
+.navbar-link + .navbar-link {
+    margin-left: 60px;
 }
