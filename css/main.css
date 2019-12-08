@@ -241,6 +241,8 @@ h2 {
 
 .skills-section-items {
     display: flex;
+    padding: 0 20px;
+    width: calc(100% - 40px);
 }
 
 .skills-section-item {
@@ -263,4 +265,32 @@ h2 {
     font-size: 18px;
     color: white;
     line-height: 26px;
+}
+
+
+/* ---------------------------- */
+/* ---------- FOOTER ---------- */
+/* ---------------------------- */
+#footer {
+    width: 100%;
+    height: 360px;
+    background-color: white;
+    color: #222;
+}
+
+#footer .wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#footer a {
+    color: #222;
+}
+
+#footer-copyright {
+    margin-top: 20px;
+    color: #222;
+    opacity: .7;
+    font-size: 18px;
 }
