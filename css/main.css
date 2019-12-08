@@ -20,6 +20,7 @@ p {
     margin: 0;
     padding: 0;
     font-size: 18px;
+    line-height: 26px;
 }
 
 h1 {
@@ -41,6 +42,8 @@ h2 {
 .color-accent {
     color: #EBB82C;
 }
+
+
 /* ---------------------------- */
 /* ---------- NAVBAR ---------- */
 /* ---------------------------- */
@@ -75,6 +78,7 @@ h2 {
 .navbar-link + .navbar-link {
     margin-left: 60px;
 }
+
 
 /* -------------------------- */
 /* ---------- MAIN ---------- */
@@ -121,16 +125,16 @@ h2 {
     color: white;
 }
 
+
 /* --------------------------- */
 /* ---------- ABOUT ---------- */
 /* --------------------------- */
 #about {
     background-color: white;
-    height: 410px;
 }
 
 #about-top {
-    height: 330px;
+    padding: 40px 0;
     width: 100%;
 }
 
@@ -174,4 +178,89 @@ h2 {
 
 #about-bottom i {
     font-size: 25px;
+}
+
+/* -------------------------- */
+/* ---------- WORK ---------- */
+/* -------------------------- */
+#work {
+    padding: 50px 0;
+}
+
+.work-section {
+    padding-top: 50px;
+}
+
+.work-section h2 {
+    color: #EBB82C;
+}
+
+.work-section-items {
+    display: flex;
+    flex-direction: column;
+}
+
+.work-section-item {
+    padding: 0 20px;
+    height: 100px;
+    width: calc(100% - 40px);
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid rgba(255, 255, 255, .15);
+}
+
+.work-section-item:hover {
+    cursor: pointer;
+}
+
+.work-section-item-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.work-section-item img {
+    height: 35px;
+    margin-left: auto;
+    -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+    filter: grayscale(100%);
+    opacity: .5;
+}
+
+.work-section-item-title {
+    font-size: 18px;
+    color: white;
+    margin-bottom: 5px;
+}
+
+.work-section-item-location {
+    font-size: 16px;
+    color: white;
+    opacity: .5;
+}
+
+.skills-section-items {
+    display: flex;
+}
+
+.skills-section-item {
+    display: flex;
+    flex-direction: column;
+}
+
+.skills-section-item + .skills-section-item {
+    margin-left: 75px;
+}
+
+.skills-section-item-title {
+    font-size: 18px;
+    color: white;
+    opacity: .5;
+    margin: 10px 0 5px 0;
+}
+
+.skills-section-item-skills {
+    font-size: 18px;
+    color: white;
+    line-height: 26px;
 }
