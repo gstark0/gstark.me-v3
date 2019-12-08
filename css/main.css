@@ -31,6 +31,13 @@ h1 {
     font-size: 48px;
 }
 
+h2 {
+    margin: 0;
+    padding: 0;
+    font-weight: normal;
+    font-size: 32px;
+}
+
 .color-accent {
     color: #EBB82C;
 }
@@ -112,4 +119,59 @@ h1 {
 
 #say-hello a {
     color: white;
+}
+
+/* --------------------------- */
+/* ---------- ABOUT ---------- */
+/* --------------------------- */
+#about {
+    background-color: white;
+    height: 410px;
+}
+
+#about-top {
+    height: 330px;
+    width: 100%;
+}
+
+#about-bottom {
+    height: 80px;
+    width: 100%;
+    background-color: #E5E5E5;
+}
+
+#about-top .wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#about h2 {
+    color: #222;
+}
+
+#about p {
+    color: #222;
+    max-width: 625px;
+}
+
+#about p {
+    margin-top: 20px;
+}
+
+#about-bottom .wrapper {
+    display: flex;
+    align-items: center;
+}
+
+#about-bottom a {
+    color: #222;
+}
+
+#about-bottom a + a {
+    margin-left: 20px;
+}
+
+#about-bottom i {
+    font-size: 25px;
 }
