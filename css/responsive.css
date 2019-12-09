@@ -1,0 +1,33 @@
+@media screen and (max-width: 1250px) {
+    .wrapper {
+        max-width: 90%;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    #navbar-links {
+        display: none;
+    }
+
+    .skills-section-items {
+        flex-direction: column;
+    }
+
+    .skills-section-item + .skills-section-item {
+        margin: 5px 0 0 0;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .work-section-item {
+        flex-direction: column;
+        height: unset;
+        padding: 20px 20px;
+    }
+
+    .work-section-item img {
+        margin-top: 10px;
+        margin-left: unset;
+        /* margin-right: auto; */
+    }
+}
